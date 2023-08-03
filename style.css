@@ -135,3 +135,42 @@ body {
     margin-top: 20px;
     letter-spacing: 2px;
 }
+
+.footer{
+
+  background-color: #0e59d2;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.link-wrapper{
+  display:flex;
+  gap: 25px;
+}
+.link-wrapper a{
+  color: black;
+  text-decoration: none;
+  font-size: 19px;font-weight: 500;
+  transition: all 0.9ms;
+  
+
+}
+
+.link-wrapper a:hover{
+
+  font-weight: 600;
+
+}
+
+.icon-wrapper{
+  display: flex;
+  gap: 25px;
+  font-size: 25px;
+}
+
+.icon-wrapper i:hover{
+  color: rgb(40, 21, 97);
+  cursor: pointer;
+
+
+}
